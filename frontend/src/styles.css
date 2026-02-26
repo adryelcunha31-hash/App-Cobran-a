@@ -1,0 +1,16 @@
+:root { font-family: Inter, sans-serif; }
+body { margin: 0; background: #f4f6f8; color: #1d2733; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin-bottom: 18px; }
+.card { border-radius: 12px; padding: 16px; color: #fff; }
+.card.green { background: #2f9e44; }
+.card.yellow { background: #f08c00; }
+.card.red { background: #e03131; }
+.table-wrapper, .critical-list { background: #fff; border-radius: 12px; padding: 16px; margin-top: 16px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border-bottom: 1px solid #eee; text-align: left; padding: 10px 6px; }
+.badge { border-radius: 999px; color: #fff; padding: 4px 10px; font-size: 12px; font-weight: 600; }
+.badge.green { background: #2f9e44; }
+.badge.yellow { background: #f08c00; }
+.badge.red { background: #e03131; }
+.critical-item { border-left: 4px solid #e03131; background: #fff5f5; margin-bottom: 10px; padding: 8px 12px; border-radius: 8px; display: grid; }
